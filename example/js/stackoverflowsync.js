@@ -6,7 +6,7 @@
 
 const { IterableJoiner } = require( "iterable-joiner" );
 
-const printInHandler = false; // This set to false is how the implementation in the question was done.
+const printInHandler = false; // false means we will behave how the implementation in the question was written.
 
 function makeRequest(letter) {
     return {
