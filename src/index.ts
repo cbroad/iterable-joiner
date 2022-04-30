@@ -1,0 +1,1 @@
+export * as IterableJoiner from "./namespace";

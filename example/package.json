@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "iterable-joiner": "file:.."
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  },
+  "scripts": {
+    "clean": "rimraf node_modules package-lock.json"
+  }
+}

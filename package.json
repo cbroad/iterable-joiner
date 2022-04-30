@@ -1,0 +1,48 @@
+{
+  "author": {
+    "name": "Carl Broadbent"
+  },
+  "bugs": {
+    "url": "https://github.com/cbroad/iterable-joiner/issues"
+  },
+  "dependencies": {
+    "semasync": "^1.0.2"
+  },
+  "description": "combine multiple Iterable or AsyncIterable objects into one",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.0.5"
+  },
+  "files": [
+    "js/*",
+    "types/*"
+  ],
+  "homepage": "https://github.com/cbroad/iterable-joiner#readme",
+  "keywords": [
+    "aggregation",
+    "asynciterable",
+    "await",
+    "iterable",
+    "loop",
+    "sequential",
+    "parallel",
+    "promise"
+  ],
+  "license": "MIT",
+  "main": "js/index.js",
+  "name": "iterable-joiner",
+  "productName": "Iterable-Joiner",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbroad/iterable-joiner.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf js node_modules package-lock.json types",
+    "prepare": "npm run build",
+    "rebuild": "npm run unbuild && npm run build",
+    "unbuild": "rimraf js types"
+  },
+  "types": "./types/index.d.ts",
+  "version": "1.0.0"
+}
