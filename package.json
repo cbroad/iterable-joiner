@@ -6,7 +6,7 @@
     "url": "https://github.com/cbroad/iterable-joiner/issues"
   },
   "dependencies": {
-    "semasync": "^1.0.2"
+    "semasync": "^1.0.4"
   },
   "description": "combine multiple Iterable or AsyncIterable objects into one",
   "devDependencies": {
@@ -44,5 +44,5 @@
     "unbuild": "rimraf js types"
   },
   "types": "./types/index.d.ts",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
