@@ -6,7 +6,7 @@
     "url": "https://github.com/cbroad/iterable-joiner/issues"
   },
   "dependencies": {
-    "semasync": "^1.0.4"
+    "semasync": "^1.0.5"
   },
   "description": "combine multiple Iterable or AsyncIterable objects into one",
   "devDependencies": {
